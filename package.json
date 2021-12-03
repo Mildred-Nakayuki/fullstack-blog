@@ -1,0 +1,25 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "cd server && yarn start",
+    "client": "cd client && yarn start",
+    "app": "concurrently \"npm:server\" \"npm:client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mildred-Nakayuki/fullstack-blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mildred-Nakayuki/fullstack-blog/issues"
+  },
+  "homepage": "https://github.com/Mildred-Nakayuki/fullstack-blog#readme",
+  "dependencies": {
+    "concurrently": "^6.4.0"
+  }
+}
